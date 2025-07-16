@@ -1,7 +1,3 @@
-# Wellness Event Booking Web Application
-
-A full-stack web application that allows Company HR accounts to propose wellness events and Vendors to approve or reject them.
-
 ## 🚀 Technology Stack
 
 - **Frontend**: React.js with Material-UI
@@ -181,14 +177,6 @@ wellness-event-booking/
     └── init.js
 ```
 
-## 🔒 Security Features
-
-- JWT-based authentication
-- Role-based access control
-- Password hashing with bcrypt
-- Protected API routes
-- Input validation and sanitization
-
 ## 🎯 Usage Guide
 
 ### For HR Users
@@ -209,37 +197,3 @@ wellness-event-booking/
    - **Approve**: Select one of the proposed dates
    - **Reject**: Provide a reason for rejection
 5. **Track Processed Events** in your dashboard
-
-## 🐳 Docker Services
-
-- **mongodb**: MongoDB database with initialization scripts
-- **backend**: Node.js Express API server
-- **frontend**: React development server
-
-All services are connected through a custom Docker network for seamless communication.
-
-## 🔄 Development Workflow
-
-1. Make changes to the code
-2. The Docker containers will automatically reload (hot reload enabled)
-3. Test the changes in the browser
-4. Use `docker-compose logs <service-name>` to view logs
-5. Use `docker-compose down` to stop all services
-
-## 📝 Notes
-
-- The application uses Material-UI for a modern, responsive design
-- All dates are validated to ensure they are in the future
-- Events are automatically assigned to vendors based on event types
-- The database is initialized with sample accounts for immediate testing
-- JWT tokens expire after 24 hours for security
-
-## 🤝 Contributing
-
-This is a demo application. For production use, consider adding:
-- User registration functionality
-- Email notifications
-- Advanced search and filtering
-- File upload capabilities
-- Audit logging
-- Enhanced security measures
